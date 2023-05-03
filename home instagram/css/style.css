@@ -1,0 +1,96 @@
+/*CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    background-color: #fafafa;
+}
+/*CONTAINER*/
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    margin-top:  30px;
+}
+#banner-container, #form-container{
+    flex: 1 1 0;
+    width: 50%;
+}
+#banner-container{
+    text-align: right;
+}
+#banner-container img{
+    margin-right: -15px;
+}
+#form-container{
+    text-align: center;
+}
+/*LOGIN FORM*/
+
+#form-box{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 30px;
+}
+#form-box #logo-insta{
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
+    background-color: #fff;
+}
+#login-form input{
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    width: 268px;
+    margin: 5px auto;
+}
+#login-form input[type="submit"]{
+background-color: #4cb5f9;
+color: #fff;
+margin-top: 15px;
+border-radius: 8px;
+border-color: #4cb5f9;
+height: 30px;
+font-size: 13px;
+padding: 0;
+font-weight: bold;
+}
+.separator{
+    position: relative;
+}
+.line{
+border-top: 1px solid #dbdbdb;
+width: 268px;
+margin: 25px auto 35px auto;
+}
+.separator span{
+    position: absolute;
+    text-transform: uppercase;
+    color: #bbb;
+    top: -6;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    font-size: 14px;
+}
+#facebook-login{
+    margin-bottom: 25px;
+}
+#facebook-login a{
+    text-decoration: none;
+    color: #385185;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}#facebook-login img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    
+}
